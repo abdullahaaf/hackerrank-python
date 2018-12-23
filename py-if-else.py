@@ -1,3 +1,4 @@
+# PROBLEM
 '''
 Task 
 Given an integer, , perform the following conditional actions:
@@ -39,7 +40,7 @@ Explanation 1
  and  is even, so it isn't weird. Thus, we print Not Weird.
 '''
 
-# code
+# SOLUTION
 N = int(input())
 if N % 2 == 0:
     if N >= 2 and N <= 5:
